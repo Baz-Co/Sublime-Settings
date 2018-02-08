@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Boxy Theme",
+		"Emmet",
+		"GitSavvy",
+		"Material Theme",
+		"Oceanic Next Color Scheme",
+		"Oceanic Next Italic Color Scheme",
+		"Package Control",
+		"SublimeGit",
+		"SublimeLinter",
+		"Theme - Nexus",
+		"TypeScript",
+		"Vue Syntax Highlight"
+	]
+}

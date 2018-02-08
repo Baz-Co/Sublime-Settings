@@ -1,0 +1,6 @@
+[
+  { "keys": ["ctrl+t"], "command": "new_file" },
+  { "keys": ["ctrl+i"], "command": "reindent" },
+  { "button": "scroll_down", "modifiers": ["ctrl"], "command": "null" },
+  { "button": "scroll_up", "modifiers": ["ctrl"], "command": "null" }
+]
