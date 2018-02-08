@@ -1,8 +1,8 @@
 @Baz-Co's reference list for development including programs, notes, and settings files for a ~~Mac~~ Windows Dev.
 
-	- [Text Editor](#text-editor)
-		- [Sublime Text](#sublime-text)
-		- [VS Code](#vs-code)
+- [Text Editor](#text-editor)
+	- [Sublime Text](#sublime-text)
+	- [VS Code](#vs-code)
 
 ## Text Editor
 
