@@ -1,47 +1,28 @@
-Sublime-Settings
-================
+@Baz-Co's reference list for development including programs, notes, and settings files for a ~~Mac~~ Windows Dev.
 
-A modified preference file for sublime.
+	- [Text Editor](#text-editor)
+		- [Sublime Text](#sublime-text)
+		- [VS Code](#vs-code)
 
-Modified code changes the User Preferences to:
-- Monokai theme
-- Phases the caret in a pulsing manner
-- Makes folders in Side Bar bold
-- Keeps code folding arrows visible
-- Sets font size to 20
-- Highlights the line the caret is presently in
-- Sets top and bottom line padding for better readability
-- Word Wrap is on by default <!-- EXPERIMENTAL Let me know if this causes issues -->
-- See below for additonal settings, need to add info on each setting
+## Text Editor
 
-The `Preferences.sublime-settings` file code can replace with no modification into the (Sublime: Preferences: Settings - User) file
+I came as an outsider to the world of software development. With that, I learned the hard way about the importance of an IDE for writing software. I used to write my Java course work code in Notepad, and eventually upgraded to [Notepad++](https://notepad-plus-plus.org/) and was finally introduced to [Netbeans](https://netbeans.org/) in more advanced Java classes. 
 
-Note- File created on Linux Sublime Text 3, needs to be tested on other environments
+My first professional gig had me writing in a proprietary coding language where the workflow was taught in [EMACs](https://www.gnu.org/software/emacs/). I became quite proficint with Emacs, but I viewed it as an antiquated, yet powerful (split-panes, copy full-lines of text, and side-by-side line-by-line file compares were my sticky features), base text editor for engineering folk; similar to [VIM](http://www.vim.org/) or [Nano](https://www.nano-editor.org/); great for remote file editing on servers, but not a robust development tool. *(In 2017, I was floored by another dev actively using Emacs for his entire dev process through extensive editor configuration, **that** was a mind bender :)*
 
-Note- Method to have preferences file automatically modified would be nice
+Probably around 2013, after mastering an Emacs workflow while on my first dev job, I started to look for better tooling for the craft. That's when I discovered [Sublime Text][sublime] and fell in love with a text editor. I was able to keep all of the sticky features from my Emacs days, but added in multi-cursors (huge workflow boon) and a versatile extension library (sftp, quick apply syntax highlighters, linters). For that point on, I have spent countless hours working in Sublime and didn't have any desire or reason to deviate...
 
-Contents of Preferences.sublime-settings:
-================
+In 2017, I started reskilling as an engineer and focused in on JavaScript as a core, versatile language. When working on colaborative JS projects, I started using Github extensively as my collaborative VCS (I had previously been using [Perforce](https://www.perforce.com/) for professional colllaboration). Proper [Github Workflows](https://guides.github.com/introduction/flow/) kept the development in order, but my workflow was in need of tightening. I used this opportunity to pick up the relatively new, [Visual Studio Code][code], as a text editor and I have found it to be the most sticky editor yet! (Intgration of file explorer, git dashboard, and bash terminal are seamless)
 
-```css
-{
-	"bold_folder_labels": true,
-	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"fade_fold_buttons": false,
-	"font_size": 20,
-	"highlight_line": true,
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
-	"tab_size": 2,
-	"save_on_focus_lost": true,
-	"trim_trailing_white_spaces_on_save": true,
-	"ensure_newline_at_eof_on_save": true,
-	"word_wrap": true, //EXPERIMENTAL Let me know if this causes issues
-	"ignored_packages":
-	[
-		"Vintage"
-	]	
-}
+### Sublime Text
+[sublime]: https://www.sublimetext.com/
 
-```
+`C:\Users\  *[USER_PROFILE]*  \AppData\Roaming\Sublime Text 3\Packages\User` - Where all setting files are saved
+- Default (Windows).sublime-keymap - Sublime: Preferences: Key Bindings
+- HTML.sublime-settings
+- JavaScript.sublime-settings
+- Package Control.sublime-settings
+- Preferences.sublime-settings - Sublime: Preferences: Settings - User
+
+### VS Code
+[code]: https://code.visualstudio.com/
