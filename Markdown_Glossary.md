@@ -22,6 +22,7 @@ A demonstration of md features and the pro shortcuts for the **Markdown All in O
   - [Preview formatted md](#preview-formatted-md)
 - [Github](#github)
 - [Third-Party Apps](#third-party-apps)
+    - [Macca's](#maccas)
 
 ## Links
 
@@ -42,7 +43,7 @@ Unordered Tasks
 * [x] Learn md
 * [ ] Live md
 
-`[alt] +c` - Toggle task completion
+`[alt] + c` - Toggle task completion
 
 ## Ordered List &Unordered
 
@@ -116,14 +117,14 @@ $age = 28;
 * `[ctrl] + [shift] + V` - Open Preview
 
 # Github
-`#` - Hashtags for tagging issue numbers
-`@` - [At symbol](http://www.atsymbol.com/history.htm) for tagging users
+- `#` - Hashtags for tagging issue numbers
+- `@` - [At symbol](http://www.atsymbol.com/history.htm) for tagging users
 
 # Third-Party Apps
 
+### Macca's
 * [Marked 2](http://marked2app.com/) - Auto Load shaved changes to an app set to preview md
-* Mou - Side by Side scroll of editor and preview
-* MultiMarkdown - 2
+* [Mou](http://25.io/mou/) - Side by Side scroll of editor and preview
 
 [1]: http://medium.com/@Bazco "Instructional Articles"
 [github]: http://www.github.com/baz-co "GitHub Profile"
