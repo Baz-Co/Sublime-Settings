@@ -36,3 +36,6 @@ as a text editor and I have found it to be the most sticky editor yet! (Integrat
 
 ### VS Code
 [code]: https://code.visualstudio.com/
+
+## Markdown Glossary
+[Glossary](Markdown_Glossary.md)
